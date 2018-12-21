@@ -784,71 +784,71 @@ Text Label 7550 2600 0    50   ~ 0
 G9
 Text Label 7550 3900 0    50   ~ 0
 G10
-Text Label 3250 7600 3    50   ~ 0
+Text Label 2150 6650 1    50   ~ 0
 R0
-Text Label 3550 7600 3    50   ~ 0
+Text Label 2450 6650 1    50   ~ 0
 R1
-Text Label 3850 7600 3    50   ~ 0
+Text Label 2750 6650 1    50   ~ 0
 R2
-Text Label 4150 7600 3    50   ~ 0
+Text Label 3050 6650 1    50   ~ 0
 R3
-Text Label 4450 7600 3    50   ~ 0
+Text Label 3350 6650 1    50   ~ 0
 R4
-Text Label 4750 7600 3    50   ~ 0
+Text Label 3650 6650 1    50   ~ 0
 R5
-Text Label 5050 7600 3    50   ~ 0
+Text Label 3950 6650 1    50   ~ 0
 R6
-Text Label 5350 7600 3    50   ~ 0
+Text Label 4250 6650 1    50   ~ 0
 R7
-Text Label 5550 6700 1    50   ~ 0
+Text Label 4600 6650 1    50   ~ 0
 R8
-Text Label 5250 6700 1    50   ~ 0
+Text Label 4900 6650 1    50   ~ 0
 R9
-Text Label 4950 6700 1    50   ~ 0
+Text Label 5200 6650 1    50   ~ 0
 R10
-Text Label 3450 7600 3    50   ~ 0
+Text Label 2350 6650 1    50   ~ 0
 B0
-Text Label 3750 7600 3    50   ~ 0
+Text Label 2650 6650 1    50   ~ 0
 B1
-Text Label 4050 7600 3    50   ~ 0
+Text Label 2950 6650 1    50   ~ 0
 B2
-Text Label 4350 7600 3    50   ~ 0
+Text Label 3250 6650 1    50   ~ 0
 B3
-Text Label 4650 7600 3    50   ~ 0
+Text Label 3550 6650 1    50   ~ 0
 B4
-Text Label 4950 7600 3    50   ~ 0
+Text Label 3850 6650 1    50   ~ 0
 B5
-Text Label 5250 7600 3    50   ~ 0
+Text Label 4150 6650 1    50   ~ 0
 B6
-Text Label 5550 7600 3    50   ~ 0
+Text Label 4450 6650 1    50   ~ 0
 B7
-Text Label 5350 6700 1    50   ~ 0
+Text Label 4800 6650 1    50   ~ 0
 B8
-Text Label 5050 6700 1    50   ~ 0
+Text Label 5100 6650 1    50   ~ 0
 B9
-Text Label 4750 6700 1    50   ~ 0
+Text Label 5400 6650 1    50   ~ 0
 B10
-Text Label 3350 7600 3    50   ~ 0
+Text Label 2250 6650 1    50   ~ 0
 G0
-Text Label 3650 7600 3    50   ~ 0
+Text Label 2550 6650 1    50   ~ 0
 G1
-Text Label 3950 7600 3    50   ~ 0
+Text Label 2850 6650 1    50   ~ 0
 G2
-Text Label 4250 7600 3    50   ~ 0
+Text Label 3150 6650 1    50   ~ 0
 G3
-Text Label 4550 7600 3    50   ~ 0
+Text Label 3450 6650 1    50   ~ 0
 G4
-Text Label 4850 7600 3    50   ~ 0
+Text Label 3750 6650 1    50   ~ 0
 G5
-Text Label 5150 7600 3    50   ~ 0
+Text Label 4050 6650 1    50   ~ 0
 G6
-Text Label 5450 7600 3    50   ~ 0
+Text Label 4350 6650 1    50   ~ 0
 G7
-Text Label 5450 6700 1    50   ~ 0
+Text Label 4700 6650 1    50   ~ 0
 G8
-Text Label 5150 6700 1    50   ~ 0
+Text Label 5000 6650 1    50   ~ 0
 G9
-Text Label 4850 6700 1    50   ~ 0
+Text Label 5300 6650 1    50   ~ 0
 G10
 Text Label 10700 1500 0    50   ~ 0
 ROW_SEL_0
@@ -934,133 +934,12 @@ Text Label 2550 1600 3    50   ~ 0
 ROW6
 Text Label 2550 2550 3    50   ~ 0
 ROW7
-Text Label 2550 3450 3    50   ~ 0
+Text Label 2550 3400 3    50   ~ 0
 ROW8
 Text Label 2550 4300 3    50   ~ 0
 ROW9
 Text Label 2550 5150 3    50   ~ 0
 ROW10
-$Comp
-L Transistor_BJT:BC141 Q1
-U 1 1 5CAF22E6
-P 1150 1400
-F 0 "Q1" H 1341 1446 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 1355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 1325 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 1400 50  0001 L CNN
-	1    1150 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q2
-U 1 1 5CAF242B
-P 1150 2300
-F 0 "Q2" H 1341 2346 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 2255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 2225 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 2300 50  0001 L CNN
-	1    1150 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q3
-U 1 1 5CBD8EF4
-P 1150 3200
-F 0 "Q3" H 1341 3246 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 3155 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 3125 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 3200 50  0001 L CNN
-	1    1150 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q4
-U 1 1 5CBD8EFB
-P 1150 4100
-F 0 "Q4" H 1341 4146 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 4055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 4025 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 4100 50  0001 L CNN
-	1    1150 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q5
-U 1 1 5CBE28DD
-P 1150 4950
-F 0 "Q5" H 1341 4996 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 4905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 4875 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 4950 50  0001 L CNN
-	1    1150 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q6
-U 1 1 5CBE28E4
-P 1150 5800
-F 0 "Q6" H 1341 5846 50  0000 L CNN
-F 1 "DNBT8105-7" H 1341 5755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 1350 5725 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 1150 5800 50  0001 L CNN
-	1    1150 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q7
-U 1 1 5CBF5CDE
-P 2450 1400
-F 0 "Q7" H 2641 1446 50  0000 L CNN
-F 1 "DNBT8105-7" H 2641 1355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2650 1325 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 2450 1400 50  0001 L CNN
-	1    2450 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q8
-U 1 1 5CBF5CE5
-P 2450 2350
-F 0 "Q8" H 2641 2396 50  0000 L CNN
-F 1 "DNBT8105-7" H 2641 2305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2650 2275 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 2450 2350 50  0001 L CNN
-	1    2450 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q9
-U 1 1 5CBFF6AF
-P 2450 3250
-F 0 "Q9" H 2641 3296 50  0000 L CNN
-F 1 "DNBT8105-7" H 2641 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2650 3175 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 2450 3250 50  0001 L CNN
-	1    2450 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q10
-U 1 1 5CBFF6B6
-P 2450 4100
-F 0 "Q10" H 2641 4146 50  0000 L CNN
-F 1 "DNBT8105-7" H 2641 4055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2650 4025 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 2450 4100 50  0001 L CNN
-	1    2450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC141 Q11
-U 1 1 5CC12B44
-P 2450 4950
-F 0 "Q11" H 2641 4996 50  0000 L CNN
-F 1 "DNBT8105-7" H 2641 4905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 2650 4875 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296634.pdf" H 2450 4950 50  0001 L CNN
-	1    2450 4950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR01
 U 1 1 5CC85E49
@@ -1152,12 +1031,12 @@ $EndComp
 $Comp
 L power:+5V #PWR09
 U 1 1 5CC8FA3E
-P 2550 3050
-F 0 "#PWR09" H 2550 2900 50  0001 C CNN
-F 1 "+5V" H 2565 3223 50  0000 C CNN
-F 2 "" H 2550 3050 50  0001 C CNN
-F 3 "" H 2550 3050 50  0001 C CNN
-	1    2550 3050
+P 2550 3000
+F 0 "#PWR09" H 2550 2850 50  0001 C CNN
+F 1 "+5V" H 2565 3173 50  0000 C CNN
+F 2 "" H 2550 3000 50  0001 C CNN
+F 3 "" H 2550 3000 50  0001 C CNN
+	1    2550 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1196,11 +1075,11 @@ Text Label 10700 3500 0    50   ~ 0
 ROW_SEL_6
 Text Label 10700 3800 0    50   ~ 0
 ROW_SEL_7
-Text Label 10700 4100 0    50   ~ 0
+Text Label 10700 4300 0    50   ~ 0
 ROW_SEL_8
-Text Label 10700 4400 0    50   ~ 0
+Text Label 10700 4600 0    50   ~ 0
 ROW_SEL_9
-Text Label 10700 4700 0    50   ~ 0
+Text Label 10700 4900 0    50   ~ 0
 ROW_SEL_10
 Text Label 950  1400 2    50   ~ 0
 ROW_SEL_0
@@ -1218,7 +1097,7 @@ Text Label 2250 1400 2    50   ~ 0
 ROW_SEL_6
 Text Label 2250 2350 2    50   ~ 0
 ROW_SEL_7
-Text Label 2250 3250 2    50   ~ 0
+Text Label 2250 3200 2    50   ~ 0
 ROW_SEL_8
 Text Label 2250 4100 2    50   ~ 0
 ROW_SEL_9
@@ -1233,17 +1112,6 @@ F 1 "R_Pack04_SIP_10k" V 10984 1982 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" V 11025 2000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN
 	1    10350 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Pack07_SIP RN2
-U 1 1 5CD507F1
-P 10350 3900
-F 0 "RN2" V 11575 3882 50  0000 C CNN
-F 1 "R_Pack07_SIP_10k" V 11484 3882 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP14" V 11525 3900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 3900 50  0001 C CNN
-	1    10350 3900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1263,11 +1131,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 3800 10550 3800
 Wire Wire Line
-	10700 4100 10550 4100
+	10700 4300 10550 4300
 Wire Wire Line
-	10700 4400 10550 4400
+	10700 4600 10550 4600
 Wire Wire Line
-	10700 4700 10550 4700
+	10700 4900 10550 4900
 Text Label 1100 6650 2    50   ~ 0
 ROW_IN_0
 Text Label 1100 6750 2    50   ~ 0
@@ -1306,11 +1174,11 @@ Text Label 10700 3600 0    50   ~ 0
 ROW_IN_6
 Text Label 10700 3900 0    50   ~ 0
 ROW_IN_7
-Text Label 10700 4200 0    50   ~ 0
+Text Label 10700 4400 0    50   ~ 0
 ROW_IN_8
-Text Label 10700 4500 0    50   ~ 0
+Text Label 10700 4700 0    50   ~ 0
 ROW_IN_9
-Text Label 10700 4800 0    50   ~ 0
+Text Label 10700 5000 0    50   ~ 0
 ROW_IN_10
 Wire Wire Line
 	10700 1600 10550 1600
@@ -1329,11 +1197,11 @@ Wire Wire Line
 Wire Wire Line
 	10700 3900 10550 3900
 Wire Wire Line
-	10700 4200 10550 4200
+	10700 4400 10550 4400
 Wire Wire Line
-	10700 4500 10550 4500
+	10700 4700 10550 4700
 Wire Wire Line
-	10700 4800 10550 4800
+	10700 5000 10550 5000
 Wire Wire Line
 	1100 6650 1300 6650
 Wire Wire Line
@@ -1357,71 +1225,71 @@ Wire Wire Line
 Wire Wire Line
 	1100 7650 1300 7650
 Wire Wire Line
-	4350 6700 4350 6900
+	5700 6650 5700 6850
 Wire Wire Line
-	4450 6700 4450 6900
+	5800 6650 5800 6850
 Wire Wire Line
-	4550 6700 4550 6900
+	5900 6650 5900 6850
 Wire Wire Line
-	4650 6700 4650 6900
+	6000 6650 6000 6850
 Wire Wire Line
-	4750 6700 4750 6900
+	6100 6650 6100 6850
 Wire Wire Line
-	4850 6700 4850 6900
+	6200 6650 6200 6850
 Wire Wire Line
-	4950 6700 4950 6900
+	6300 6650 6300 6850
 Wire Wire Line
-	5050 6700 5050 6900
+	6400 6650 6400 6850
 Wire Wire Line
-	5150 6700 5150 6900
+	6500 6650 6500 6850
 Wire Wire Line
-	5250 6700 5250 6900
+	6600 6650 6600 6850
 Wire Wire Line
-	5350 6700 5350 6900
+	6700 6650 6700 6850
 Wire Wire Line
-	3250 7400 3250 7600
+	2150 6850 2150 6650
 Wire Wire Line
-	3350 7400 3350 7600
+	2250 6850 2250 6650
 Wire Wire Line
-	3450 7400 3450 7600
+	2350 6850 2350 6650
 Wire Wire Line
-	3550 7400 3550 7600
+	2450 6850 2450 6650
 Wire Wire Line
-	3650 7400 3650 7600
+	2550 6850 2550 6650
 Wire Wire Line
-	3750 7400 3750 7600
+	2650 6850 2650 6650
 Wire Wire Line
-	3850 7400 3850 7600
+	2750 6850 2750 6650
 Wire Wire Line
-	3950 7400 3950 7600
+	2850 6850 2850 6650
 Wire Wire Line
-	4050 7400 4050 7600
+	2950 6850 2950 6650
 Wire Wire Line
-	4150 7400 4150 7600
+	3050 6850 3050 6650
 Wire Wire Line
-	4250 7400 4250 7600
+	3150 6850 3150 6650
 Wire Wire Line
-	4350 7400 4350 7600
+	3250 6850 3250 6650
 Wire Wire Line
-	4450 7400 4450 7600
+	3350 6850 3350 6650
 Wire Wire Line
-	4550 7400 4550 7600
+	3450 6850 3450 6650
 Wire Wire Line
-	4650 7400 4650 7600
+	3550 6850 3550 6650
 Wire Wire Line
-	4750 7400 4750 7600
+	3650 6850 3650 6650
 Wire Wire Line
-	4850 7400 4850 7600
+	3750 6850 3750 6650
 Wire Wire Line
-	4950 7400 4950 7600
+	3850 6850 3850 6650
 Wire Wire Line
-	5050 7400 5050 7600
+	3950 6850 3950 6650
 Wire Wire Line
-	5150 7400 5150 7600
+	4050 6850 4050 6650
 Wire Wire Line
-	5250 7400 5250 7600
+	4150 6850 4150 6650
 Wire Wire Line
-	5350 7400 5350 7600
+	4250 6850 4250 6650
 $Sheet
 S 6900 4900 550  1150
 U 5C0976B3
@@ -1802,75 +1670,253 @@ Wire Wire Line
 	9050 5200 8950 5200
 Wire Wire Line
 	9050 5300 8950 5300
-Text Label 4350 6700 1    50   ~ 0
+Text Label 5800 6650 1    50   ~ 0
 R12
-Text Label 4050 6700 1    50   ~ 0
+Text Label 6100 6650 1    50   ~ 0
 R13
-Text Label 3750 6700 1    50   ~ 0
+Text Label 6400 6650 1    50   ~ 0
 R14
-Text Label 4450 6700 1    50   ~ 0
+Text Label 5700 6650 1    50   ~ 0
 B11
-Text Label 4150 6700 1    50   ~ 0
+Text Label 6000 6650 1    50   ~ 0
 B12
-Text Label 3850 6700 1    50   ~ 0
+Text Label 6300 6650 1    50   ~ 0
 B13
-Text Label 3550 6700 1    50   ~ 0
+Text Label 6600 6650 1    50   ~ 0
 B14
-Text Label 4550 6700 1    50   ~ 0
+Text Label 5600 6650 1    50   ~ 0
 G11
-Text Label 4250 6700 1    50   ~ 0
+Text Label 5900 6650 1    50   ~ 0
 G12
-Text Label 3950 6700 1    50   ~ 0
+Text Label 6200 6650 1    50   ~ 0
 G13
-Text Label 3650 6700 1    50   ~ 0
+Text Label 6500 6650 1    50   ~ 0
 G14
-Text Label 4650 6700 1    50   ~ 0
+Text Label 5500 6650 1    50   ~ 0
 R11
-Text Label 3450 6700 1    50   ~ 0
+Text Label 6700 6650 1    50   ~ 0
 R15
-Text Label 3250 6700 1    50   ~ 0
+Text Label 6900 6650 1    50   ~ 0
 B15
-Text Label 3350 6700 1    50   ~ 0
+Text Label 6800 6650 1    50   ~ 0
 G15
+Wire Wire Line
+	4350 6650 4350 6850
+Wire Wire Line
+	4450 6650 4450 6850
+Wire Wire Line
+	4600 6650 4600 6850
+Wire Wire Line
+	4700 6650 4700 6850
+Wire Wire Line
+	4800 6650 4800 6850
+Wire Wire Line
+	4900 6650 4900 6850
+Wire Wire Line
+	5000 6650 5000 6850
+Wire Wire Line
+	5100 6650 5100 6850
+Wire Wire Line
+	5200 6650 5200 6850
+Wire Wire Line
+	5300 6650 5300 6850
+Wire Wire Line
+	5400 6650 5400 6850
+Wire Wire Line
+	5500 6650 5500 6850
+Wire Wire Line
+	5600 6650 5600 6850
+Wire Wire Line
+	6800 6850 6800 6650
+Wire Wire Line
+	6900 6850 6900 6650
 $Comp
-L Connector_Generic:Conn_02x24_Counter_Clockwise J2
-U 1 1 5C2C2A61
-P 4350 7200
-F 0 "J2" V 4446 8379 50  0000 L CNN
-F 1 "Conn_02x24_Counter_Clockwise" V 4355 8379 50  0000 L CNN
-F 2 "" H 4350 7200 50  0001 C CNN
-F 3 "~" H 4350 7200 50  0001 C CNN
-	1    4350 7200
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x12 J1
+U 1 1 5C767AF0
+P 1500 7050
+F 0 "J1" H 1580 7042 50  0000 L CNN
+F 1 "Conn_01x12" H 1580 6951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 1500 7050 50  0001 C CNN
+F 3 "~" H 1500 7050 50  0001 C CNN
+	1    1500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5C767B50
+P 1100 6550
+F 0 "#PWR0101" H 1100 6400 50  0001 C CNN
+F 1 "+5V" H 1115 6723 50  0000 C CNN
+F 2 "" H 1100 6550 50  0001 C CNN
+F 3 "" H 1100 6550 50  0001 C CNN
+	1    1100 6550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 7600 5450 7400
-Wire Wire Line
-	5550 7600 5550 7400
-Wire Wire Line
-	3250 6700 3250 6900
-Wire Wire Line
-	3350 6700 3350 6900
-Wire Wire Line
-	3450 6700 3450 6900
-Wire Wire Line
-	3550 6700 3550 6900
-Wire Wire Line
-	3650 6700 3650 6900
-Wire Wire Line
-	3750 6700 3750 6900
-Wire Wire Line
-	3850 6700 3850 6900
-Wire Wire Line
-	3950 6700 3950 6900
-Wire Wire Line
-	4050 6700 4050 6900
-Wire Wire Line
-	4150 6700 4150 6900
-Wire Wire Line
-	4250 6700 4250 6900
-Wire Wire Line
-	5450 6900 5450 6700
-Wire Wire Line
-	5550 6900 5550 6700
+	1100 6550 1300 6550
+$Comp
+L Transistor_BJT:DNBT8105 Q1
+U 1 1 5D476098
+P 1150 1400
+F 0 "Q1" H 1341 1446 50  0000 L CNN
+F 1 "DNBT8105" H 1341 1355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 1250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 1450 50  0001 C CNN
+	1    1150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q7
+U 1 1 5D495218
+P 2450 1400
+F 0 "Q7" H 2641 1446 50  0000 L CNN
+F 1 "DNBT8105" H 2641 1355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3200 1250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 2700 1450 50  0001 C CNN
+	1    2450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q2
+U 1 1 5D4B281B
+P 1150 2300
+F 0 "Q2" H 1341 2346 50  0000 L CNN
+F 1 "DNBT8105" H 1341 2255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 2150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 2350 50  0001 C CNN
+	1    1150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q8
+U 1 1 5D4CFE15
+P 2450 2350
+F 0 "Q8" H 2641 2396 50  0000 L CNN
+F 1 "DNBT8105" H 2641 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3200 2200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 2700 2400 50  0001 C CNN
+	1    2450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q3
+U 1 1 5D4ED474
+P 1150 3200
+F 0 "Q3" H 1341 3246 50  0000 L CNN
+F 1 "DNBT8105" H 1341 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 3050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 3250 50  0001 C CNN
+	1    1150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q9
+U 1 1 5D4ED47B
+P 2450 3200
+F 0 "Q9" H 2641 3246 50  0000 L CNN
+F 1 "DNBT8105" H 2641 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3200 3050 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 2700 3250 50  0001 C CNN
+	1    2450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q4
+U 1 1 5D59D856
+P 1150 4100
+F 0 "Q4" H 1341 4146 50  0000 L CNN
+F 1 "DNBT8105" H 1341 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 3950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 4150 50  0001 C CNN
+	1    1150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q10
+U 1 1 5D59D85D
+P 2450 4100
+F 0 "Q10" H 2641 4146 50  0000 L CNN
+F 1 "DNBT8105" H 2641 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3200 3950 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 2700 4150 50  0001 C CNN
+	1    2450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q5
+U 1 1 5D5BAEEC
+P 1150 4950
+F 0 "Q5" H 1341 4996 50  0000 L CNN
+F 1 "DNBT8105" H 1341 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 4800 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 5000 50  0001 C CNN
+	1    1150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q11
+U 1 1 5D5BAEF3
+P 2450 4950
+F 0 "Q11" H 2641 4996 50  0000 L CNN
+F 1 "DNBT8105" H 2641 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3200 4800 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 2700 5000 50  0001 C CNN
+	1    2450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:DNBT8105 Q6
+U 1 1 5D5D8530
+P 1150 5800
+F 0 "Q6" H 1341 5846 50  0000 L CNN
+F 1 "DNBT8105" H 1341 5755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1900 5650 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30513.pdf" H 1400 5850 50  0001 C CNN
+	1    1150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J3
+U 1 1 5C11E64D
+P 5700 7050
+F 0 "J3" V 5824 6996 50  0000 C CNN
+F 1 "Conn_01x24" V 5915 6996 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 5700 7050 50  0001 C CNN
+F 3 "~" H 5700 7050 50  0001 C CNN
+	1    5700 7050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x24 J2
+U 1 1 5C1593BA
+P 3250 7050
+F 0 "J2" V 3374 6996 50  0000 C CNN
+F 1 "Conn_01x24" V 3465 6996 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 3250 7050 50  0001 C CNN
+F 3 "~" H 3250 7050 50  0001 C CNN
+	1    3250 7050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP RN?
+U 1 1 5C10D3EE
+P 10350 3400
+F 0 "RN?" V 11075 3382 50  0000 C CNN
+F 1 "R_Pack04_SIP_10k" V 10984 3382 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 11025 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 3400 50  0001 C CNN
+	1    10350 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack03_SIP RN?
+U 1 1 5C12A8FF
+P 10350 4700
+F 0 "RN?" V 10975 4682 50  0000 C CNN
+F 1 "R_Pack03_SIP_10k" V 10884 4682 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 10925 4700 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 4700 50  0001 C CNN
+	1    10350 4700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

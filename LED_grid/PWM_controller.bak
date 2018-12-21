@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:LED_grid_controllers-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 17
 Title ""
 Date ""
 Rev ""
@@ -16,7 +17,7 @@ $EndDescr
 $Comp
 L MCU_Microchip_ATtiny:ATtiny85-20PU U?
 U 1 1 5BFEAADC
-P 3850 3900
+P 2700 3900
 AR Path="/5C024305/5BFEAADC" Ref="U?"  Part="1" 
 AR Path="/5C0259A7/5BFEAADC" Ref="U?"  Part="1" 
 AR Path="/5C025B0F/5BFEAADC" Ref="U?"  Part="1" 
@@ -48,241 +49,41 @@ AR Path="/5C7E23F2/5BFEAADC" Ref="U?"  Part="1"
 AR Path="/5C7E2422/5BFEAADC" Ref="U?"  Part="1" 
 AR Path="/5C853AFB/5BFEAADC" Ref="U?"  Part="1" 
 AR Path="/5C87E360/5BFEAADC" Ref="U?"  Part="1" 
-AR Path="/5D052951/5BFEAADC" Ref="U?"  Part="1" 
-F 0 "U?" H 3320 3946 50  0000 R CNN
-F 1 "ATtiny85-20PU" H 3320 3855 50  0000 R CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3850 3900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 3850 3900 50  0001 C CNN
-	1    3850 3900
+AR Path="/5D052951/5BFEAADC" Ref="U1"  Part="1" 
+AR Path="/5D056BDA/5BFEAADC" Ref="U2"  Part="1" 
+AR Path="/5D056BE3/5BFEAADC" Ref="U3"  Part="1" 
+AR Path="/5D056BEC/5BFEAADC" Ref="U4"  Part="1" 
+AR Path="/5D056C14/5BFEAADC" Ref="U5"  Part="1" 
+AR Path="/5D056C1C/5BFEAADC" Ref="U6"  Part="1" 
+AR Path="/5D056C24/5BFEAADC" Ref="U7"  Part="1" 
+AR Path="/5D056C2C/5BFEAADC" Ref="U8"  Part="1" 
+AR Path="/5D056C38/5BFEAADC" Ref="U9"  Part="1" 
+AR Path="/5D056C40/5BFEAADC" Ref="U10"  Part="1" 
+AR Path="/5D056C48/5BFEAADC" Ref="U11"  Part="1" 
+AR Path="/5D056C50/5BFEAADC" Ref="U12"  Part="1" 
+AR Path="/5D056C5C/5BFEAADC" Ref="U13"  Part="1" 
+AR Path="/5D056C64/5BFEAADC" Ref="U14"  Part="1" 
+AR Path="/5D056C6C/5BFEAADC" Ref="U15"  Part="1" 
+AR Path="/5D056C74/5BFEAADC" Ref="U16"  Part="1" 
+F 0 "U16" H 2170 3946 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 2170 3855 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2700 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 2700 3900 50  0001 C CNN
+	1    2700 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5BFEB756
-P 5400 3800
-AR Path="/5C024305/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C0259A7/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C025B0F/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C025E03/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C026322/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C026B4A/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C026D06/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C026D30/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C0272FA/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C027324/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02734E/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C027378/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028949/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028973/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028F67/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028F91/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028FBB/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C028FE5/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02A4B5/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02A4DF/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02A509/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02A533/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02E5E3/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02E60D/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C02E637/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C156C72/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C172B10/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C7E23F2/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C7E2422/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C853AFB/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5C87E360/5BFEB756" Ref="Q?"  Part="1" 
-AR Path="/5D052951/5BFEB756" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5591 3846 50  0000 L CNN
-F 1 "2N3904" H 5591 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5600 3725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5400 3800 50  0001 L CNN
-	1    5400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5BFEB845
-P 6250 3800
-AR Path="/5C024305/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C0259A7/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C025B0F/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C025E03/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C026322/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C026B4A/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C026D06/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C026D30/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C0272FA/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C027324/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02734E/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C027378/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028949/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028973/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028F67/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028F91/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028FBB/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C028FE5/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02A4B5/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02A4DF/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02A509/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02A533/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02E5E3/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02E60D/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C02E637/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C156C72/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C172B10/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C7E23F2/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C7E2422/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C853AFB/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5C87E360/5BFEB845" Ref="Q?"  Part="1" 
-AR Path="/5D052951/5BFEB845" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6441 3846 50  0000 L CNN
-F 1 "2N3904" H 6441 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6450 3725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6250 3800 50  0001 L CNN
-	1    6250 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3904 Q?
-U 1 1 5BFEB9FD
-P 7150 3800
-AR Path="/5C024305/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C0259A7/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C025B0F/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C025E03/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C026322/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C026B4A/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C026D06/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C026D30/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C0272FA/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C027324/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02734E/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C027378/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028949/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028973/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028F67/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028F91/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028FBB/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C028FE5/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02A4B5/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02A4DF/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02A509/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02A533/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02E5E3/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02E60D/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C02E637/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C156C72/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C172B10/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C7E23F2/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C7E2422/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C853AFB/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5C87E360/5BFEB9FD" Ref="Q?"  Part="1" 
-AR Path="/5D052951/5BFEB9FD" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7341 3846 50  0000 L CNN
-F 1 "2N3904" H 7341 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7350 3725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7150 3800 50  0001 L CNN
-	1    7150 3800
-	1    0    0    -1  
-$EndComp
-Text Label 4600 3600 0    50   ~ 0
+Text Label 3450 3600 0    50   ~ 0
 R_PWM
-Text Label 4600 3700 0    50   ~ 0
+Text Label 3450 3700 0    50   ~ 0
 G_PWM
-Text Label 4600 4000 0    50   ~ 0
+Text Label 3450 4000 0    50   ~ 0
 B_PWM
-Text HLabel 4600 4100 2    50   Input ~ 0
+Text HLabel 3450 4100 2    50   Input ~ 0
 DCLK
-Text HLabel 4600 3900 2    50   Input ~ 0
+Text HLabel 3450 3900 2    50   Input ~ 0
 DIN
-Text HLabel 4600 3800 2    50   Output ~ 0
+Text HLabel 3450 3800 2    50   Output ~ 0
 DOUT
-$Comp
-L power:+5V #PWR?
-U 1 1 5BFFC3FD
-P 3850 3300
-AR Path="/5C024305/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0259A7/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C025B0F/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C025E03/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C026322/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C026B4A/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C026D06/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C026D30/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C0272FA/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C027324/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02734E/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C027378/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028949/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028973/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028F67/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028F91/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028FBB/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C028FE5/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A4B5/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A4DF/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A509/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A533/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E5E3/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E60D/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E637/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C156C72/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C172B10/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E23F2/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E2422/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C853AFB/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5C87E360/5BFFC3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5D052951/5BFFC3FD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 3150 50  0001 C CNN
-F 1 "+5V" H 3865 3473 50  0000 C CNN
-F 2 "" H 3850 3300 50  0001 C CNN
-F 3 "" H 3850 3300 50  0001 C CNN
-	1    3850 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BFFC436
-P 3850 4500
-AR Path="/5C024305/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C0259A7/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C025B0F/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C025E03/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C026322/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C026B4A/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C026D06/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C026D30/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C0272FA/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C027324/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02734E/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C027378/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028949/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028973/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028F67/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028F91/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028FBB/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C028FE5/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A4B5/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A4DF/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A509/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02A533/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E5E3/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E60D/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C02E637/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C156C72/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C172B10/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E23F2/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C7E2422/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C853AFB/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5C87E360/5BFFC436" Ref="#PWR?"  Part="1" 
-AR Path="/5D052951/5BFFC436" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3850 4250 50  0001 C CNN
-F 1 "GND" H 3855 4327 50  0000 C CNN
-F 2 "" H 3850 4500 50  0001 C CNN
-F 3 "" H 3850 4500 50  0001 C CNN
-	1    3850 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BFFC55B
@@ -318,8 +119,23 @@ AR Path="/5C7E23F2/5BFFC55B" Ref="#PWR?"  Part="1"
 AR Path="/5C7E2422/5BFFC55B" Ref="#PWR?"  Part="1" 
 AR Path="/5C853AFB/5BFFC55B" Ref="#PWR?"  Part="1" 
 AR Path="/5C87E360/5BFFC55B" Ref="#PWR?"  Part="1" 
-AR Path="/5D052951/5BFFC55B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5500 4050 50  0001 C CNN
+AR Path="/5D052951/5BFFC55B" Ref="#PWR03"  Part="1" 
+AR Path="/5D056BDA/5BFFC55B" Ref="#PWR06"  Part="1" 
+AR Path="/5D056BE3/5BFFC55B" Ref="#PWR09"  Part="1" 
+AR Path="/5D056BEC/5BFFC55B" Ref="#PWR012"  Part="1" 
+AR Path="/5D056C14/5BFFC55B" Ref="#PWR015"  Part="1" 
+AR Path="/5D056C1C/5BFFC55B" Ref="#PWR018"  Part="1" 
+AR Path="/5D056C24/5BFFC55B" Ref="#PWR021"  Part="1" 
+AR Path="/5D056C2C/5BFFC55B" Ref="#PWR024"  Part="1" 
+AR Path="/5D056C38/5BFFC55B" Ref="#PWR027"  Part="1" 
+AR Path="/5D056C40/5BFFC55B" Ref="#PWR030"  Part="1" 
+AR Path="/5D056C48/5BFFC55B" Ref="#PWR033"  Part="1" 
+AR Path="/5D056C50/5BFFC55B" Ref="#PWR036"  Part="1" 
+AR Path="/5D056C5C/5BFFC55B" Ref="#PWR039"  Part="1" 
+AR Path="/5D056C64/5BFFC55B" Ref="#PWR042"  Part="1" 
+AR Path="/5D056C6C/5BFFC55B" Ref="#PWR045"  Part="1" 
+AR Path="/5D056C74/5BFFC55B" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 5500 4050 50  0001 C CNN
 F 1 "GND" H 5505 4127 50  0000 C CNN
 F 2 "" H 5500 4300 50  0001 C CNN
 F 3 "" H 5500 4300 50  0001 C CNN
@@ -329,7 +145,7 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BFFC593
-P 6350 4300
+P 6700 4300
 AR Path="/5C024305/5BFFC593" Ref="#PWR?"  Part="1" 
 AR Path="/5C0259A7/5BFFC593" Ref="#PWR?"  Part="1" 
 AR Path="/5C025B0F/5BFFC593" Ref="#PWR?"  Part="1" 
@@ -361,18 +177,33 @@ AR Path="/5C7E23F2/5BFFC593" Ref="#PWR?"  Part="1"
 AR Path="/5C7E2422/5BFFC593" Ref="#PWR?"  Part="1" 
 AR Path="/5C853AFB/5BFFC593" Ref="#PWR?"  Part="1" 
 AR Path="/5C87E360/5BFFC593" Ref="#PWR?"  Part="1" 
-AR Path="/5D052951/5BFFC593" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6350 4050 50  0001 C CNN
-F 1 "GND" H 6355 4127 50  0000 C CNN
-F 2 "" H 6350 4300 50  0001 C CNN
-F 3 "" H 6350 4300 50  0001 C CNN
-	1    6350 4300
+AR Path="/5D052951/5BFFC593" Ref="#PWR04"  Part="1" 
+AR Path="/5D056BDA/5BFFC593" Ref="#PWR07"  Part="1" 
+AR Path="/5D056BE3/5BFFC593" Ref="#PWR010"  Part="1" 
+AR Path="/5D056BEC/5BFFC593" Ref="#PWR013"  Part="1" 
+AR Path="/5D056C14/5BFFC593" Ref="#PWR016"  Part="1" 
+AR Path="/5D056C1C/5BFFC593" Ref="#PWR019"  Part="1" 
+AR Path="/5D056C24/5BFFC593" Ref="#PWR022"  Part="1" 
+AR Path="/5D056C2C/5BFFC593" Ref="#PWR025"  Part="1" 
+AR Path="/5D056C38/5BFFC593" Ref="#PWR028"  Part="1" 
+AR Path="/5D056C40/5BFFC593" Ref="#PWR031"  Part="1" 
+AR Path="/5D056C48/5BFFC593" Ref="#PWR034"  Part="1" 
+AR Path="/5D056C50/5BFFC593" Ref="#PWR037"  Part="1" 
+AR Path="/5D056C5C/5BFFC593" Ref="#PWR040"  Part="1" 
+AR Path="/5D056C64/5BFFC593" Ref="#PWR043"  Part="1" 
+AR Path="/5D056C6C/5BFFC593" Ref="#PWR046"  Part="1" 
+AR Path="/5D056C74/5BFFC593" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 6700 4050 50  0001 C CNN
+F 1 "GND" H 6705 4127 50  0000 C CNN
+F 2 "" H 6700 4300 50  0001 C CNN
+F 3 "" H 6700 4300 50  0001 C CNN
+	1    6700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BFFD49E
-P 7250 4300
+P 7750 4300
 AR Path="/5C024305/5BFFD49E" Ref="#PWR?"  Part="1" 
 AR Path="/5C0259A7/5BFFD49E" Ref="#PWR?"  Part="1" 
 AR Path="/5C025B0F/5BFFD49E" Ref="#PWR?"  Part="1" 
@@ -404,24 +235,39 @@ AR Path="/5C7E23F2/5BFFD49E" Ref="#PWR?"  Part="1"
 AR Path="/5C7E2422/5BFFD49E" Ref="#PWR?"  Part="1" 
 AR Path="/5C853AFB/5BFFD49E" Ref="#PWR?"  Part="1" 
 AR Path="/5C87E360/5BFFD49E" Ref="#PWR?"  Part="1" 
-AR Path="/5D052951/5BFFD49E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7250 4050 50  0001 C CNN
-F 1 "GND" H 7255 4127 50  0000 C CNN
-F 2 "" H 7250 4300 50  0001 C CNN
-F 3 "" H 7250 4300 50  0001 C CNN
-	1    7250 4300
+AR Path="/5D052951/5BFFD49E" Ref="#PWR05"  Part="1" 
+AR Path="/5D056BDA/5BFFD49E" Ref="#PWR08"  Part="1" 
+AR Path="/5D056BE3/5BFFD49E" Ref="#PWR011"  Part="1" 
+AR Path="/5D056BEC/5BFFD49E" Ref="#PWR014"  Part="1" 
+AR Path="/5D056C14/5BFFD49E" Ref="#PWR017"  Part="1" 
+AR Path="/5D056C1C/5BFFD49E" Ref="#PWR020"  Part="1" 
+AR Path="/5D056C24/5BFFD49E" Ref="#PWR023"  Part="1" 
+AR Path="/5D056C2C/5BFFD49E" Ref="#PWR026"  Part="1" 
+AR Path="/5D056C38/5BFFD49E" Ref="#PWR029"  Part="1" 
+AR Path="/5D056C40/5BFFD49E" Ref="#PWR032"  Part="1" 
+AR Path="/5D056C48/5BFFD49E" Ref="#PWR035"  Part="1" 
+AR Path="/5D056C50/5BFFD49E" Ref="#PWR038"  Part="1" 
+AR Path="/5D056C5C/5BFFD49E" Ref="#PWR041"  Part="1" 
+AR Path="/5D056C64/5BFFD49E" Ref="#PWR044"  Part="1" 
+AR Path="/5D056C6C/5BFFD49E" Ref="#PWR047"  Part="1" 
+AR Path="/5D056C74/5BFFD49E" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 7750 4050 50  0001 C CNN
+F 1 "GND" H 7755 4127 50  0000 C CNN
+F 2 "" H 7750 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4300
 	1    0    0    -1  
 $EndComp
 Text HLabel 5500 3350 1    50   Input ~ 0
 R
-Text HLabel 6350 3350 1    50   Input ~ 0
+Text HLabel 6700 3350 1    50   Input ~ 0
 G
-Text HLabel 7250 3350 1    50   Input ~ 0
+Text HLabel 7750 3350 1    50   Input ~ 0
 B
 Wire Wire Line
-	7250 3350 7250 3600
+	7750 3350 7750 3600
 Wire Wire Line
-	6350 3350 6350 3600
+	6700 3350 6700 3600
 Wire Wire Line
 	5500 3350 5500 3600
 $Comp
@@ -444,8 +290,23 @@ AR Path="/5C7E23F2/5C02BFDE" Ref="R?"  Part="1"
 AR Path="/5C7E2422/5C02BFDE" Ref="R?"  Part="1" 
 AR Path="/5C853AFB/5C02BFDE" Ref="R?"  Part="1" 
 AR Path="/5C87E360/5C02BFDE" Ref="R?"  Part="1" 
-AR Path="/5D052951/5C02BFDE" Ref="R?"  Part="1" 
-F 0 "R?" H 5568 4196 50  0000 L CNN
+AR Path="/5D052951/5C02BFDE" Ref="R1"  Part="1" 
+AR Path="/5D056BDA/5C02BFDE" Ref="R4"  Part="1" 
+AR Path="/5D056BE3/5C02BFDE" Ref="R7"  Part="1" 
+AR Path="/5D056BEC/5C02BFDE" Ref="R10"  Part="1" 
+AR Path="/5D056C14/5C02BFDE" Ref="R13"  Part="1" 
+AR Path="/5D056C1C/5C02BFDE" Ref="R16"  Part="1" 
+AR Path="/5D056C24/5C02BFDE" Ref="R19"  Part="1" 
+AR Path="/5D056C2C/5C02BFDE" Ref="R22"  Part="1" 
+AR Path="/5D056C38/5C02BFDE" Ref="R25"  Part="1" 
+AR Path="/5D056C40/5C02BFDE" Ref="R28"  Part="1" 
+AR Path="/5D056C48/5C02BFDE" Ref="R31"  Part="1" 
+AR Path="/5D056C50/5C02BFDE" Ref="R34"  Part="1" 
+AR Path="/5D056C5C/5C02BFDE" Ref="R37"  Part="1" 
+AR Path="/5D056C64/5C02BFDE" Ref="R40"  Part="1" 
+AR Path="/5D056C6C/5C02BFDE" Ref="R43"  Part="1" 
+AR Path="/5D056C74/5C02BFDE" Ref="R46"  Part="1" 
+F 0 "R46" H 5568 4196 50  0000 L CNN
 F 1 "100" H 5568 4105 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5540 4140 50  0001 C CNN
 F 3 "~" H 5500 4150 50  0001 C CNN
@@ -455,7 +316,7 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5C02C06E
-P 6350 4150
+P 6700 4150
 AR Path="/5C024305/5C02C06E" Ref="R?"  Part="1" 
 AR Path="/5C026B4A/5C02C06E" Ref="R?"  Part="1" 
 AR Path="/5C028949/5C02C06E" Ref="R?"  Part="1" 
@@ -472,18 +333,33 @@ AR Path="/5C7E23F2/5C02C06E" Ref="R?"  Part="1"
 AR Path="/5C7E2422/5C02C06E" Ref="R?"  Part="1" 
 AR Path="/5C853AFB/5C02C06E" Ref="R?"  Part="1" 
 AR Path="/5C87E360/5C02C06E" Ref="R?"  Part="1" 
-AR Path="/5D052951/5C02C06E" Ref="R?"  Part="1" 
-F 0 "R?" H 6418 4196 50  0000 L CNN
-F 1 "150" H 6418 4105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6390 4140 50  0001 C CNN
-F 3 "~" H 6350 4150 50  0001 C CNN
-	1    6350 4150
+AR Path="/5D052951/5C02C06E" Ref="R2"  Part="1" 
+AR Path="/5D056BDA/5C02C06E" Ref="R5"  Part="1" 
+AR Path="/5D056BE3/5C02C06E" Ref="R8"  Part="1" 
+AR Path="/5D056BEC/5C02C06E" Ref="R11"  Part="1" 
+AR Path="/5D056C14/5C02C06E" Ref="R14"  Part="1" 
+AR Path="/5D056C1C/5C02C06E" Ref="R17"  Part="1" 
+AR Path="/5D056C24/5C02C06E" Ref="R20"  Part="1" 
+AR Path="/5D056C2C/5C02C06E" Ref="R23"  Part="1" 
+AR Path="/5D056C38/5C02C06E" Ref="R26"  Part="1" 
+AR Path="/5D056C40/5C02C06E" Ref="R29"  Part="1" 
+AR Path="/5D056C48/5C02C06E" Ref="R32"  Part="1" 
+AR Path="/5D056C50/5C02C06E" Ref="R35"  Part="1" 
+AR Path="/5D056C5C/5C02C06E" Ref="R38"  Part="1" 
+AR Path="/5D056C64/5C02C06E" Ref="R41"  Part="1" 
+AR Path="/5D056C6C/5C02C06E" Ref="R44"  Part="1" 
+AR Path="/5D056C74/5C02C06E" Ref="R47"  Part="1" 
+F 0 "R47" H 6768 4196 50  0000 L CNN
+F 1 "150" H 6768 4105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6740 4140 50  0001 C CNN
+F 3 "~" H 6700 4150 50  0001 C CNN
+	1    6700 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 5C02C141
-P 7250 4150
+P 7750 4150
 AR Path="/5C024305/5C02C141" Ref="R?"  Part="1" 
 AR Path="/5C026B4A/5C02C141" Ref="R?"  Part="1" 
 AR Path="/5C028949/5C02C141" Ref="R?"  Part="1" 
@@ -500,19 +376,50 @@ AR Path="/5C7E23F2/5C02C141" Ref="R?"  Part="1"
 AR Path="/5C7E2422/5C02C141" Ref="R?"  Part="1" 
 AR Path="/5C853AFB/5C02C141" Ref="R?"  Part="1" 
 AR Path="/5C87E360/5C02C141" Ref="R?"  Part="1" 
-AR Path="/5D052951/5C02C141" Ref="R?"  Part="1" 
-F 0 "R?" H 7318 4196 50  0000 L CNN
-F 1 "150" H 7318 4105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7290 4140 50  0001 C CNN
-F 3 "~" H 7250 4150 50  0001 C CNN
-	1    7250 4150
+AR Path="/5D052951/5C02C141" Ref="R3"  Part="1" 
+AR Path="/5D056BDA/5C02C141" Ref="R6"  Part="1" 
+AR Path="/5D056BE3/5C02C141" Ref="R9"  Part="1" 
+AR Path="/5D056BEC/5C02C141" Ref="R12"  Part="1" 
+AR Path="/5D056C14/5C02C141" Ref="R15"  Part="1" 
+AR Path="/5D056C1C/5C02C141" Ref="R18"  Part="1" 
+AR Path="/5D056C24/5C02C141" Ref="R21"  Part="1" 
+AR Path="/5D056C2C/5C02C141" Ref="R24"  Part="1" 
+AR Path="/5D056C38/5C02C141" Ref="R27"  Part="1" 
+AR Path="/5D056C40/5C02C141" Ref="R30"  Part="1" 
+AR Path="/5D056C48/5C02C141" Ref="R33"  Part="1" 
+AR Path="/5D056C50/5C02C141" Ref="R36"  Part="1" 
+AR Path="/5D056C5C/5C02C141" Ref="R39"  Part="1" 
+AR Path="/5D056C64/5C02C141" Ref="R42"  Part="1" 
+AR Path="/5D056C6C/5C02C141" Ref="R45"  Part="1" 
+AR Path="/5D056C74/5C02C141" Ref="R48"  Part="1" 
+F 0 "R48" H 7818 4196 50  0000 L CNN
+F 1 "150" H 7818 4105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7790 4140 50  0001 C CNN
+F 3 "~" H 7750 4150 50  0001 C CNN
+	1    7750 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack03_SIP RN?
+L Device:R_Pack03_SIP RN1
 U 1 1 5D052F36
 P 5800 5300
-F 0 "RN?" V 5808 5505 50  0000 L CNN
+AR Path="/5D052951/5D052F36" Ref="RN1"  Part="1" 
+AR Path="/5D056BDA/5D052F36" Ref="RN2"  Part="1" 
+AR Path="/5D056BE3/5D052F36" Ref="RN3"  Part="1" 
+AR Path="/5D056BEC/5D052F36" Ref="RN4"  Part="1" 
+AR Path="/5D056C14/5D052F36" Ref="RN5"  Part="1" 
+AR Path="/5D056C1C/5D052F36" Ref="RN6"  Part="1" 
+AR Path="/5D056C24/5D052F36" Ref="RN7"  Part="1" 
+AR Path="/5D056C2C/5D052F36" Ref="RN8"  Part="1" 
+AR Path="/5D056C38/5D052F36" Ref="RN9"  Part="1" 
+AR Path="/5D056C40/5D052F36" Ref="RN10"  Part="1" 
+AR Path="/5D056C48/5D052F36" Ref="RN11"  Part="1" 
+AR Path="/5D056C50/5D052F36" Ref="RN12"  Part="1" 
+AR Path="/5D056C5C/5D052F36" Ref="RN13"  Part="1" 
+AR Path="/5D056C64/5D052F36" Ref="RN14"  Part="1" 
+AR Path="/5D056C6C/5D052F36" Ref="RN15"  Part="1" 
+AR Path="/5D056C74/5D052F36" Ref="RN16"  Part="1" 
+F 0 "RN16" V 5808 5505 50  0000 L CNN
 F 1 "R_Pack03_SIP_10k" V 5899 5505 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP6" V 6375 5300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 5300 50  0001 C CNN
@@ -520,17 +427,15 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4600 3600 4450 3600
+	3450 3600 3300 3600
 Wire Wire Line
-	4600 3700 4450 3700
+	3450 3700 3300 3700
 Wire Wire Line
-	4600 3800 4450 3800
+	3450 3900 3300 3900
 Wire Wire Line
-	4600 3900 4450 3900
+	3450 4000 3300 4000
 Wire Wire Line
-	4600 4000 4450 4000
-Wire Wire Line
-	4600 4100 4450 4100
+	3450 4100 3300 4100
 Text Label 5600 5000 2    50   ~ 0
 R_PWM
 Text Label 5600 5300 2    50   ~ 0
@@ -539,9 +444,9 @@ Text Label 5600 5600 2    50   ~ 0
 B_PWM
 Text Label 5200 3800 1    50   ~ 0
 R_RES_OUT
-Text Label 6050 3800 1    50   ~ 0
+Text Label 6400 3800 1    50   ~ 0
 G_RES_OUT
-Text Label 6950 3800 1    50   ~ 0
+Text Label 7450 3800 1    50   ~ 0
 B_RES_OUT
 Text Label 5600 5100 2    50   ~ 0
 R_RES_OUT
@@ -549,4 +454,91 @@ Text Label 5600 5400 2    50   ~ 0
 G_RES_OUT
 Text Label 5600 5700 2    50   ~ 0
 B_RES_OUT
+Text HLabel 2700 3300 1    50   Input ~ 0
+Vcc
+Text HLabel 2700 4500 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3450 3800 3300 3800
+$Comp
+L Transistor_BJT:2N3904_SOT-23 Q1
+U 1 1 5C0E680F
+P 5400 3800
+AR Path="/5D052951/5C0E680F" Ref="Q1"  Part="1" 
+AR Path="/5D056BDA/5C0E680F" Ref="Q4"  Part="1" 
+AR Path="/5D056BE3/5C0E680F" Ref="Q7"  Part="1" 
+AR Path="/5D056BEC/5C0E680F" Ref="Q10"  Part="1" 
+AR Path="/5D056C14/5C0E680F" Ref="Q13"  Part="1" 
+AR Path="/5D056C1C/5C0E680F" Ref="Q16"  Part="1" 
+AR Path="/5D056C24/5C0E680F" Ref="Q19"  Part="1" 
+AR Path="/5D056C2C/5C0E680F" Ref="Q22"  Part="1" 
+AR Path="/5D056C38/5C0E680F" Ref="Q25"  Part="1" 
+AR Path="/5D056C40/5C0E680F" Ref="Q28"  Part="1" 
+AR Path="/5D056C48/5C0E680F" Ref="Q31"  Part="1" 
+AR Path="/5D056C50/5C0E680F" Ref="Q34"  Part="1" 
+AR Path="/5D056C5C/5C0E680F" Ref="Q37"  Part="1" 
+AR Path="/5D056C64/5C0E680F" Ref="Q40"  Part="1" 
+AR Path="/5D056C6C/5C0E680F" Ref="Q43"  Part="1" 
+AR Path="/5D056C74/5C0E680F" Ref="Q46"  Part="1" 
+F 0 "Q46" H 5591 3846 50  0000 L CNN
+F 1 "2N3904_SOT-23" H 5591 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 5600 3725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5400 3800 50  0001 L CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904_SOT-23 Q2
+U 1 1 5C0E6B6A
+P 6600 3800
+AR Path="/5D052951/5C0E6B6A" Ref="Q2"  Part="1" 
+AR Path="/5D056BDA/5C0E6B6A" Ref="Q5"  Part="1" 
+AR Path="/5D056BE3/5C0E6B6A" Ref="Q8"  Part="1" 
+AR Path="/5D056BEC/5C0E6B6A" Ref="Q11"  Part="1" 
+AR Path="/5D056C14/5C0E6B6A" Ref="Q14"  Part="1" 
+AR Path="/5D056C1C/5C0E6B6A" Ref="Q17"  Part="1" 
+AR Path="/5D056C24/5C0E6B6A" Ref="Q20"  Part="1" 
+AR Path="/5D056C2C/5C0E6B6A" Ref="Q23"  Part="1" 
+AR Path="/5D056C38/5C0E6B6A" Ref="Q26"  Part="1" 
+AR Path="/5D056C40/5C0E6B6A" Ref="Q29"  Part="1" 
+AR Path="/5D056C48/5C0E6B6A" Ref="Q32"  Part="1" 
+AR Path="/5D056C50/5C0E6B6A" Ref="Q35"  Part="1" 
+AR Path="/5D056C5C/5C0E6B6A" Ref="Q38"  Part="1" 
+AR Path="/5D056C64/5C0E6B6A" Ref="Q41"  Part="1" 
+AR Path="/5D056C6C/5C0E6B6A" Ref="Q44"  Part="1" 
+AR Path="/5D056C74/5C0E6B6A" Ref="Q47"  Part="1" 
+F 0 "Q47" H 6791 3846 50  0000 L CNN
+F 1 "2N3904_SOT-23" H 6791 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6800 3725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6600 3800 50  0001 L CNN
+	1    6600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904_SOT-23 Q3
+U 1 1 5C0E6C19
+P 7650 3800
+AR Path="/5D052951/5C0E6C19" Ref="Q3"  Part="1" 
+AR Path="/5D056BDA/5C0E6C19" Ref="Q6"  Part="1" 
+AR Path="/5D056BE3/5C0E6C19" Ref="Q9"  Part="1" 
+AR Path="/5D056BEC/5C0E6C19" Ref="Q12"  Part="1" 
+AR Path="/5D056C14/5C0E6C19" Ref="Q15"  Part="1" 
+AR Path="/5D056C1C/5C0E6C19" Ref="Q18"  Part="1" 
+AR Path="/5D056C24/5C0E6C19" Ref="Q21"  Part="1" 
+AR Path="/5D056C2C/5C0E6C19" Ref="Q24"  Part="1" 
+AR Path="/5D056C38/5C0E6C19" Ref="Q27"  Part="1" 
+AR Path="/5D056C40/5C0E6C19" Ref="Q30"  Part="1" 
+AR Path="/5D056C48/5C0E6C19" Ref="Q33"  Part="1" 
+AR Path="/5D056C50/5C0E6C19" Ref="Q36"  Part="1" 
+AR Path="/5D056C5C/5C0E6C19" Ref="Q39"  Part="1" 
+AR Path="/5D056C64/5C0E6C19" Ref="Q42"  Part="1" 
+AR Path="/5D056C6C/5C0E6C19" Ref="Q45"  Part="1" 
+AR Path="/5D056C74/5C0E6C19" Ref="Q48"  Part="1" 
+F 0 "Q48" H 7841 3846 50  0000 L CNN
+F 1 "2N3904_SOT-23" H 7841 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7850 3725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7650 3800 50  0001 L CNN
+	1    7650 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
